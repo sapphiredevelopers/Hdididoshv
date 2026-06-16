@@ -1,0 +1,22 @@
+{
+    "token": "MTM5NzU4ODk0OTA4NTQ1ODQ3NQ.G-SbcY.5zkDO1x-cWBXD2qLwSx1mDbdPut81PHKdJEYbE",
+    "max_concurrent": 200,
+    "proxy": false,
+    "nuke": {
+        "channel_names": [
+            "nuked-by-wizzlers-op",
+            "wizzed-by-wizzlers",
+            "fucked-by-wizzlerd-shakti"
+        ],
+        "roles_name": [
+            "stfu wizzlers run you",
+            "wizzlers owns you",
+            "wizzlers fucked your ass"
+        ],
+        "messages_content": [
+            "@everyone @here Nuked by wizzlers join https://discord.gg/wizzlers and subscribe https://youtube.com/@hatedshakti https://youtube.com/@wizzlersop",
+            "@everyone @here wizzlers wizzed you join https://discord.gg/wizzlers and subscribe https://youtube.com/@hatedshakti https://youtube.com/@wizzlersop",
+            "@everyone @here destroyed by wizzlers join https://discord.gg/wizzlers and subscribe https://youtube.com/@hatedshakti https://youtube.com/@wizzlersop"
+        ]
+    }
+}
