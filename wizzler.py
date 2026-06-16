@@ -129,7 +129,7 @@ new_banner = '\n'.join(gradient_text(line.center(console_width), PINK_START, PIN
 
 options = """
 ╭───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│                                               WIZZLERS OP                                                 │
+│                                               GHOST OP                                                 │
 ├───────────────────────────────────┬───────────────────────────────────┬───────────────────────────────────┤
 │ <01> Ban Members                  │ <07> Delete Roles                 │ <13> Change Icon                  │
 │ <02> Kick Members                 │ <08> Delete Emojis                │ <14> Change Guild                 │
