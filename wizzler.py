@@ -129,7 +129,7 @@ new_banner = '\n'.join(gradient_text(line.center(console_width), PINK_START, PIN
 
 options = """
 ╭───────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│                                               GHOST NUKER                                                 │
+│                                               WIZZLERS OP                                                 │
 ├───────────────────────────────────┬───────────────────────────────────┬───────────────────────────────────┤
 │ <01> Ban Members                  │ <07> Delete Roles                 │ <13> Change Icon                  │
 │ <02> Kick Members                 │ <08> Delete Emojis                │ <14> Change Guild                 │
@@ -372,6 +372,4 @@ class shakti:
                     print(format_log_message("ERROR", f"Failed to delete {channel} | {e}", 44))
                     return False
 
-    async def execute_delroles(self, role: str, token: str, retries=3, base_delay=1.0):
-        async with self.semaphore:
-            for attempt in rang
+    async def execute_del
