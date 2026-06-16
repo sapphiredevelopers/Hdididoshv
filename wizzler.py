@@ -375,4 +375,4 @@ class shakti:
                         else:
                             print(format_log_message("ERROR", f"Failed to delete {channel}", 44))
                             return False
-                except E
+                except E:
