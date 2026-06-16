@@ -1,0 +1,22 @@
+{
+    "token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+    "max_concurrent": 45,
+    "proxy": false,
+    "nuke": {
+        "channel_names": [
+            "nuked-by-shakti jija and nyx daddy"
+            "wizzed-by-shakti jija and nyx daddy",
+            "fucked-by-shakti jija and nyx daddy" 
+        ],
+        "roles_name": [
+            "stfu shakti x nyx run you",
+            "shakti x nyx owns you",
+            "shakti x nyx fucked your ass"
+        ],
+        "messages_content": [
+            "@everyone @here Nuked by shakti x nyx join https://discord.gg/shakti x nyx and subscribe https://youtube.com/@hatedshakti https://youtube.com/@shakti x nyxop",
+            "@everyone @here shakti x nyx wizzed you join https://discord.gg/shakti x nyx and subscribe https://youtube.com/@hatedshakti https://youtube.com/@shakti x nyxop",
+            "@everyone @here destroyed by shakti x nyx join https://discord.gg/shakti x nyx and subscribe https://youtube.com/@hatedshakti https://youtube.com/@shakti x nyxop"
+        ]
+    }
+}
