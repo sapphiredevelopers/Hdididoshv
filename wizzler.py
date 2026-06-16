@@ -121,9 +121,16 @@ os.system("cls") if os.name == "nt" else os.system("clear")
 
 console_width = 140
 new_banner = """
-▓█▀▀█ ▒█░▒█ ▒█▀▀▀█ ▒█▀▀▀█ ▀▀█▀▀ 　 ▒█▄░▒█ ▒█░▒█ ▒█░▄▀ ▒█▀▀▀ ▒█▀▀█
-▒█░▄▄ ▒█▀▀█ ▒█░░▒█ ░▀▀▀▄▄ ░▒█░░ 　 ▒█▒█▒█ ▒█░▒█ ▒█▀▄░ ▒█▀▀▀ ▒█▄▄▀
-▒█▄▄█ ▒█░▒█ ▒█▄▄▄█ ▒█▄▄▄█ ░▒█░░ 　 ▒█░░▀█ ░▀▄▄▀ ▒█░▒█ ▒█▄▄▄ ▒█░▒█
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃   ██████╗ ██╗  ██╗ ██████╗ ███████╗████████╗   ┃
+┃  ██╔════╝ ██║  ██║██╔═══██╗██╔════╝╚══██╔══╝  ┃
+┃  ██║  ███╗███████║██║   ██║███████╗   ██║       ┃
+┃  ██║   ██║██╔══██║██║   ██║╚════██║   ██║       ┃
+┃  ╚██████╔╝██║  ██║╚██████╔╝███████║   ██║      ┃
+┃   ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝       ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫
+┃               N U K E R • MADE BY GHOST             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 """.rstrip('\n').split('\n')
 new_banner = '\n'.join(gradient_text(line.center(console_width), PINK_START, PINK_END, bold=True) for line in new_banner)
 
@@ -368,8 +375,4 @@ class shakti:
                         else:
                             print(format_log_message("ERROR", f"Failed to delete {channel}", 44))
                             return False
-                except Exception as e:
-                    print(format_log_message("ERROR", f"Failed to delete {channel} | {e}", 44))
-                    return False
-
-    async def execute_del
+                except E
